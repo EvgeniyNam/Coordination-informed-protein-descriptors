@@ -30,15 +30,21 @@ proteins are described as an intersecting sequence of dipeptides. As the result 
 
 ## Dataset
 
-1. Short description of the header
+This dataset comprises a table where each row corresponds to an amino acid,
+and the columns represent the interaction energies between
+the amino acids and double-charged cations in the gas phase (see Figure 1).
 
-2. Short description of the data
+<img src="images/figure_1.png" width="80%">
 
-    - Reaction between AA and metal ion
-    
-    - Связь с original dataset 
+*Figure 1. Reaction corresponding to the provided interaction energies*
 
-3. Table
+For amino acids with potentially ionic side chains, only charged forms were considered:
+cationic forms for Lysine (Lys), Arginine (Arg), and Histidine (His);
+and anionic forms for Aspartic acid (Asp) and Glutamic acid (Glu). 
+This approach was adopted to enhance the diversity of the final vectors,
+thereby improving their effectiveness as machine learning descriptors.
+
+**Table 1. AA-M<sup>2+</sup> Interaction energies, kJ/mol.
 
 
 ## [Data processing](data_processing/)
@@ -56,8 +62,7 @@ The dataset models amino acids with the following modifications (**Figure 2**):
 
 <img src="images/figure_2.png" width="100%">
 
-<p style="text-align:center;"><em>Figure 2. Modified aminoacids structures</em></p>
-
+*Figure 2. Modified aminoacids structures*
 
 The dataset includes all identified conformers for these 20 amino acids in both free and bound states (complexes with Mg, Ca, Ba).
 For this repository, we have used the lowest energy conformer for each system.
