@@ -54,7 +54,12 @@ The dataset models amino acids with the following modifications (**Figure 2**):
     - anionic forms for Aspartic acid (Asp) and Glutamic acid (Glu).
 - All computations were performed in the gas phase.
 
-<img source="images/figure_2.png" width="100%">
+1
+<img source="/images/figure_2.png" width="100%">
+2
+<img source="images/figure_2.png" width="50%">
+3
+![images/figure_2.png]
 
 _Figure 2. Modified aminoacids structures_
 
