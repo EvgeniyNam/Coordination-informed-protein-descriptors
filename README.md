@@ -44,7 +44,7 @@ and anionic forms for Aspartic acid (Asp) and Glutamic acid (Glu).
 This approach was adopted to enhance the diversity of the final vectors,
 thereby improving their effectiveness as machine learning descriptors.
 
-**Table 1. AA-M<sup>2+</sup> Interaction energies, kJ/mol.
+**Table 1. AA-M<sup>2+</sup> Interaction energies, kJ/mol.**
 
 
 ## [Data processing](data_processing/)
