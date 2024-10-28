@@ -54,9 +54,9 @@ The dataset models amino acids with the following modifications (**Figure 2**):
     - anionic forms for Aspartic acid (Asp) and Glutamic acid (Glu).
 - All computations were performed in the gas phase.
 
-<img src="images/figure_2.png" width="80%">
+<img src="images/figure_2.png" width="100%">
 
-_Figure 2. Modified aminoacids structures_
+<p style="text-align:center;"><em>Figure 2. Modified aminoacids structures</em></p>
 
 
 The dataset includes all identified conformers for these 20 amino acids in both free and bound states (complexes with Mg, Ca, Ba).
