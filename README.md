@@ -12,7 +12,7 @@ We believe these data will be valuable for researchers in cheminformatics and re
 facilitating further exploration and application in protein studies.
 
 
-## [Dataset](energies.csv)
+## [Dataset](data_processing/data/energies_final.csv)
 
 This dataset comprises a table where each row corresponds to an amino acid,
 and the columns represent the interaction energies between
@@ -22,15 +22,16 @@ the amino acids and double-charged cations in the gas phase (see Figure 1).
 
 *Figure 1. Reaction corresponding to the provided interaction energies*
 
-For amino acids with potentially ionic side chains, only charged forms were considered:
+For amino acids with potentially ionic side chains, both neutral and charged forms were considered:
 cationic forms for Lysine (Lys), Arginine (Arg), and Histidine (His);
 and anionic forms for Aspartic acid (Asp) and Glutamic acid (Glu). 
-This approach was adopted to enhance the diversity of the final vectors,
+One can chose one the more effective one for their needs.
+The authors believe that using the charged-sidechains version enhances the diversity of the final vectors,
 thereby improving their effectiveness as machine learning descriptors.
 
 **Table 1. Relative interaction energies between aminoacids and double-charged ions, eV.**
 
-Aminoacid | Mg interaction energy, eV | Ca interaction energy, eV | Ba interaction energy, eV | Mg interaction energy, charged sidechains, eV | Ca interaction energy, charged sidechains, eV | Ba interaction energy, charged sidechains, eV
+Aminoacid | E<sub>int</sub>(Mg<sup>2+</sup>), eV | E<sub>int</sub>(Ca<sup>2+</sup>), eV | E<sub>int</sub>(Ba<sup>2+</sup>), eV | E<sub>int</sub>(Mg<sup>2+</sup>), charged sidechains, eV | E<sub>int</sub>(Ca<sup>2+</sup>), charged sidechains, eV | E<sub>int</sub>(Ba<sup>2+</sup>), charged sidechains, eV
 :---: | ----: | ----: | ----: | ----: | ----: | ----:
 A |   -0.138 |   -0.119 |   -0.100 |   -0.138 |   -0.119 |   -0.100
 R |   -3.225 |   -2.128 |   -1.599 |    4.481 |    4.391 |    4.303
