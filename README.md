@@ -17,6 +17,8 @@ facilitating further exploration and application in protein studies.
 This dataset comprises a table where each row corresponds to an amino acid,
 and the columns represent the interaction energies between
 the amino acids and double-charged cations in the gas phase (see Figure 1).
+Interaction energies were normalized to those of glycine
+since the original dataset does not contain the energies of bare cations.
 
 <img src="images/figure_1.png" width="80%">
 
@@ -53,8 +55,8 @@ thereby improving their effectiveness as machine learning descriptors.
 | W |   -2.153 |   -1.679 |   -1.347 |   -2.153 |   -1.679 |   -1.347 |
 | Y |   -1.773 |   -1.381 |   -1.047 |   -1.773 |   -1.381 |   -1.047 |
 | V |   -0.489 |   -0.271 |   -0.224 |   -0.489 |   -0.271 |   -0.224 |
-| O |   -2.475 |   -1.718 |   -1.330 |    0.939 |    0.899 |    1.638 |
-| U |   -1.266 |   -0.770 |   -0.527 |   -1.185 |   -1.175 |   -0.981 |
+| O |   -2.507 |   -1.750 |   -1.314 |    1.137 |    0.615 |    0.996 |
+| U |   -1.212 |   -0.839 |   -0.544 |   -1.212 |   -0.839 |   -0.544 |
 
 
 ## [Data processing](data_processing/)
